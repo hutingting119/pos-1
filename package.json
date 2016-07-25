@@ -1,11 +1,10 @@
 {
-  "name": "pos-1",
+  "name": "my-oo-pos",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
     "test": "jasmine"
   },
-  "dependencies": {
+  "devDependencies": {
     "jasmine": "^2.4.1"
   }
 }
