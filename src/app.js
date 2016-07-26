@@ -29,7 +29,6 @@ function buildCartItems(tags, allItems) {
         const count = parseFloat(tagArray[1] || 1);
 
         const cartItem = cartItems.find(cartItem => cartItem.item.barcode === barcode);
-
         if (cartItem) {
             cartItem.count += count;
         } else {
@@ -85,7 +84,6 @@ function buildReceipt(receiptItems) {
 
     return {receiptItems, total, savedTotal}
 }
-
 function buildReceiptText(receipt) {
 
     let receiptItemsText = receipt.receiptItems
